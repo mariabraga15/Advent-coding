@@ -16,7 +16,7 @@ for(i=0;i<n;i++)
     printf("game[%d][0]=",i);
     scanf("%s",&game[i][0]);
     printf("game[%d][1]=",i);
-    printf("\n");
+    
     scanf("%s",&game[i][1]);}//end scanning
 for( i=0;i<n&&(valid==1);i++)
 {switch(game[i][0]){
@@ -66,7 +66,7 @@ default: {valid=0; printf("The rounds are not valid\n"); break;}//default switch
 }//end switch2
 }
 printf("The opponent's score is %d\n",op_score);
-printf("My score is %d\n",my_score); //displaying the scores for each player
+printf("Your score is %d\n",my_score); //displaying the scores for each player
 if(valid==0)
 printf("Invalid game");
 else
