@@ -114,12 +114,3 @@ void split(char string[100]){
 
 }
 
-int priority(char com[100]){
-   int pry=0;
-for(int i=0;i<strlen(com);i++)
-   if(islower(com[i]))
-      pry+=1+(int)com[i]-(int)'a';
-   else
-      pry+=27+(int)com[i]-(int)'A';
-return pry;
-}//something wrong with this
