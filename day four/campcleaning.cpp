@@ -1,16 +1,6 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-int max(int a,int b){
-  if(a>=b)return a;
-  else return b;
-}
-int min(int a,int b){
-  if(a<=b)return a;
-  else return b;
-}
-
-
 int main(){
 int i,x,y,z,w,n,count=0,total=0;
 bool valid=true;
